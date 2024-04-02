@@ -1,0 +1,299 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.background-main{
+    background-image: url(../assets/img/comidasaludable.jpg);
+    position: relative;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;
+    background-size: 100%
+}
+
+
+
+.barra-principal{
+    position: relative;
+    height: 9vh;
+    background-color: #febc5b;
+    align-items: center;
+    justify-content: center;
+    text-align: justify;
+    display: flex;
+}
+
+
+.barra-navegadora{
+    position: relative;
+    text-align: center;
+}
+
+.barra-navegadora ul li{
+    position: relative;
+    display: inline-block;
+    margin-right: 60px;
+    font-size: 20px;
+}
+
+
+.logo{
+    position: relative;
+    font-size: 30px;
+    padding-right: 20vw;
+    
+}
+
+.titulo-principal{
+    display: flex;
+}
+
+.cuerpo{
+    background-color: #FFD651;
+    padding-left: 20px;
+}
+
+
+
+.pie-de-pagina{
+    background-color: #febc5b;
+    height: 90px;
+}
+
+
+.articulo-tarta{
+    position: relative;
+    padding-left: 20px;
+    width: 500px;
+
+    .imagen-tarta{
+        position: relative;
+        height: 300px;
+        width: 340px;
+    }
+}
+
+.articulo-tarta ul{
+    font-size: large;
+}
+
+.articulo-tarta ol{
+    font-size: large;
+}
+
+.articulo-pionono{
+    position: relative;
+    padding-left: 20px;
+    width: 500px;
+
+    .imagen-pionono{
+        position: relative;
+        height: 300px;
+        width: 340px;
+    }
+}
+
+.articulo-pionono ul{
+    font-size: large;
+}
+
+.articulo-pionono ol{
+    font-size: large;
+}
+
+
+.articulo-croqueta{
+    position: relative;
+    padding-left: 20px;
+    width: 500px;
+
+    .imagen-croqueta{
+        position: relative;
+        height: 300px;
+        width: 340px;
+    }
+}
+
+.articulo-croqueta ul{
+    font-size: large;
+}
+
+.articulo-croqueta ol{
+    font-size: large;
+}
+
+.articulo-budin{
+    position: relative;
+    padding-left: 20px;
+    width: 500px;
+
+    .imagen-budin{
+        position: relative;
+        height: 300px;
+        width: 340px;
+    }
+}
+
+.articulo-budin ul{
+    font-size: large;
+}
+
+.articulo-budin ol{
+    font-size: large;
+}
+
+
+.articulo-pepas{
+    position: relative;
+    padding-left: 20px;
+    width: 500px;
+
+    .imagen-pepas{
+        position: relative;
+        height: 300px;
+        width: 340px;
+    }
+}
+
+.articulo-pepas ul{
+    font-size: large;
+}
+
+.articulo-pepas ol{
+    font-size: large;
+}
+
+.articulo-lechuzas{
+    position: relative;
+    padding-left: 20px;
+    width: 500px;
+
+    .imagen-lechuzas{
+        position: relative;
+        height: 300px;
+        width: 340px;
+    }
+}
+
+.articulo-lechuzas ul{
+    font-size: large;
+}
+
+.articulo-lechuzas ol{
+    font-size: large;
+}
+
+.articulo-nutricionista{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.articulo-nutricionista p{
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: larger;
+}
+
+.articulo-healthyfood{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    padding-top: 95px;
+}
+
+.articulo-healthyfood p{
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: larger;
+}
+
+.imagen-nutricionista{
+        position: relative;
+        height: 350px;
+        width: 400px;
+    }
+
+.imagen-healthyfood{
+        display: flex;
+        flex-direction: row-reverse;
+        position: relative;
+        height: 300px;
+        width: 450px;
+        padding-right: 20px;
+
+}
+
+.section-en-fila{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.tamaño-fuente{
+    font-size: 23px;
+}
+
+.equivalencias-taza-desayuno{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-top: 70px;
+}
+
+.equivalencias-harina{
+    padding-left: 1250px;
+    height: 300px;
+}
+
+.equivalencias-mantequilla{
+    padding-left: 1250px;
+    height: 300px;
+}
+
+.equivalencias-volumen{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    
+    .imagen-vaso-agua{
+        height: 350px;
+        width: 450px;
+    }
+}
+
+.titulo-principal{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 82px;
+}
+
+.section-taza-cafe{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-evenly;
+
+    .imagen-taza-cafe{
+        height: 350px;
+        width: 450px;
+    }
+}
+
+.section-aceite{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-evenly;
+    padding-top: 70px;
+
+    .imagen-cuchara-aceite{
+        height: 350px;
+        width: 450px;
+    }
+}
+
+.texto-aceite{
+    padding-top: 90px;
+}
